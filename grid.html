@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Grid Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .grid-item {
+      background-color: #2196F3; /* Blue background */
+      color: white;              /* Text color */
+      padding: 20px;
+      text-align: center;
+      font-size: 1.2em;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Grid Layout Demo</h2>
+
+  <div class="grid-container">
+    <div class="grid-item">Box 1</div>
+    <div class="grid-item">Box 2</div>
+    <div class="grid-item">Box 3</div>
+    <div class="grid-item">Box 4</div>
+    <div class="grid-item">Box 5</div>
+    <div class="grid-item">Box 6</div>
+  </div>
+
+</body>
+</html>
