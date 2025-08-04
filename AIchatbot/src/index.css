@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card-body {
+  background-color: #ffffff;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.message-bubble {
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 80%;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.message-user {
+  background-color: #d0f0c0;
+  color: #2e7d32;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message-bot {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.card-footer {
+  background-color: #f1f3f4;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+input.form-control {
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+button.btn {
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
